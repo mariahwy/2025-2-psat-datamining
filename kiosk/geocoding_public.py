@@ -39,7 +39,7 @@ def get_coordinate(key, address_query):
             'address': address_query,
             'refine': 'true',
             'simple': 'false',
-            'crs': 'EPSG:4326'
+            'crs': 'EPSG:5186'
         }
         
         try:

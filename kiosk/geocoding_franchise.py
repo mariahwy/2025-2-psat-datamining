@@ -39,7 +39,7 @@ def search_place(key, query):
         
         'bbox': seoul_bbox,
         
-        'crs': 'EPSG:4326',  # BBOX 및 응답 좌표계 (WGS84 위경도)
+        'crs': 'EPSG:5186',  # BBOX 및 응답 좌표계 (WGS84 위경도)
         'size': 30,          # 한 페이지 당 최대 결과 수
         'page': current_page
     }
