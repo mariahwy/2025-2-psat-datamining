@@ -1,3 +1,10 @@
 # 가상환경
 .venv/
 *csv
+*txt
+data/
+*zip
+*qgz
+시각화/
+QGIS/
+스타일/
